@@ -3,9 +3,9 @@ const router = express.Router();
 const authMiddleware = require("../../middleware/auth/authMiddleware"); // Import the auth middleware
 
 // Import controllers
-const {
-  UpdateRoleBasedPermissions,
-} = require("../../controllers/hris/rolebasedpermissions/updateRoleBasedPermissions");
+// const {
+//   UpdateRoleBasedPermissions,
+// } = require("../../controllers/hris/rolebasedpermissions/updateRoleBasedPermissions");
 
 const {
   createUser,
